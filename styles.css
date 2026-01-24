@@ -207,10 +207,21 @@ p {
   padding: 60px 0;
 }
 
+.route {
+  justify-content:left;
+  align-items: baseline;
+  flex: 0 0 60%;
+}
+
+.route__content {
+  display: flex;
+}
+
 .route__decor_line {
   width: 80px;
   height: 4px;
   background-color: #037E8C;
+  margin-right: 30px;
 }
 
 .route__name {
@@ -320,4 +331,8 @@ font-weight: 600;
   border-radius: 10px;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.route__slider {
+  flex: 0 0 40%;
 }
